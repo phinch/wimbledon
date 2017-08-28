@@ -1,6 +1,6 @@
 //round,aces,winners,errors,distance
 $("document").ready(function(){
-    d3.csv("./docs/round_differential_raw.csv", function(data){
+    d3.csv("round_differential_raw.csv", function(data){
         var svg = d3.select("#content").append("svg").attr("height", 500).attr("width", 1200),
         margin = {top: 20, right: 20, bottom: 30, left: 40},
         width = +svg.attr("width") - margin.left - margin.right,
