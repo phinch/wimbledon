@@ -22,11 +22,19 @@
     font-family: 'Raleway', sans-serif;
 }
 
-#exp{
+.exp{
     margin: auto;
     font-family: 'Raleway', sans-serif;
     width: 80%;
     font-size: 20px;
+}
+
+.exp2 {
+  margin: auto;
+  font-family: 'Raleway', sans-serif;
+  width: 80%;
+  font-size: 15px;
+  text-align: center;
 }
 
 .tooltip{
